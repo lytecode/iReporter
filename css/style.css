@@ -143,11 +143,13 @@ body {
     align-items: center;
   }
 
-  .sign-in-link a {
+  .sign-in-link a,
+  .sign-up-link a {
     text-decoration: none;
   }
 
-  .btn-register {
+  .btn-register,
+  .btn-login {
     width: 55%;
     color: white;
     background: blue;
