@@ -114,12 +114,13 @@ body {
   }
 
   .form-container {
+    top: 30px;
   background-color: #fff;
-  padding: 90px 0px;
+  padding: 40px 0 70px 0;
   display: block;
   width: 40%;
   max-height: 70%;
-  margin: 70px auto;
+  margin: 100px auto 70px auto;
   }
 
   .form-container h1 {
