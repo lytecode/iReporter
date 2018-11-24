@@ -217,11 +217,22 @@ td, th {
   text-align: left; 
 }
 
-.btn-edit {
+.btn,
+.btn-edit,
+.btn-invest {
   background: orange;
   color: white;
 }
-.btn-delete {
+.btn-delete,
+.btn-reject {
   background: red;
   color: white;
+}
+
+.btn-approve {
+  background: green;
+}
+
+.btn-detail {
+  background: #3260DA;
 }
