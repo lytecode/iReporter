@@ -149,7 +149,8 @@ body {
   }
 
   .btn-register,
-  .btn-login {
+  .btn-login,
+  .btn-case {
     width: 55%;
     color: white;
     background: blue;
@@ -159,6 +160,35 @@ body {
   }
 
 
-  .story-label {
+  /* .form-group {
+     display: block; 
+  }  */
+
+  label {
+    /* float: left; */
+    margin-left: 25%;
+    text-align: left;
+    width: 100%;
     display: block;
+    /* margin-right: 15px;
+    width: 100px; */
   }
+
+   #story{
+    width: 55%;
+    margin-left: 20%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    padding: 10px;
+    line-height: 1.5;
+  }
+
+  #video, #image {
+    margin-left: 25%;
+    padding: 10px 0;
+  }
+
+  /* * {
+    border: none;
+  } */
