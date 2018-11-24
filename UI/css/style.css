@@ -157,3 +157,8 @@ body {
     align-items: center;
     cursor: pointer;
   }
+
+
+  .story-label {
+    display: block;
+  }
