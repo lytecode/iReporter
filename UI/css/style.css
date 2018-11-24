@@ -183,7 +183,7 @@ body {
   }
 
 /*
-  Generic Styling, for Desktops/Laptops 
+  Table for Desktops/Laptops 
 */
 .table-container {
   margin-top: 200px;
@@ -192,8 +192,12 @@ body {
   width: 80%;
   background: white;
   padding: 3%;
-
 }
+.table-container h1 {
+  text-align: center;
+  color: #3260DA;
+}
+
 table { 
   width: 100%; 
   border-collapse: collapse; 
@@ -211,4 +215,13 @@ td, th {
   padding: 6px; 
   border: 1px solid #ccc; 
   text-align: left; 
+}
+
+.btn-edit {
+  background: orange;
+  color: white;
+}
+.btn-delete {
+  background: red;
+  color: white;
 }
