@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="iReporter enables any or every citizen to bring any form of corruption to the notice of appropriate authorities and the general public.">
+    <meta name="author" content="Mbonu Basil">
+    <meta name="keywords" content="iReporter, Corruption, Eye witness report, Intervention, red flag">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iReporter - Sign up</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="blue-background">
+    <nav class="nav__container">
+        <div class="nav__logo">
+            <a href="./index.html">iReporter</a>
+        </div>
+
+        <div class="nav__items">
+            <div class="nav__link">
+                <a href="./records.html">Records</a>
+            </div>
+
+            <div class="nav__link">
+                <a href="./index.html">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="form-container">
+        <h1>Create Red flag or Intervention</h1>
+
+        <form class="case-form" id="case-form">
+            <div class="form-group">
+                <label for="record-type">Record Type:</label>
+                <select class="form-control" id="record-type" name="record-type">
+                    <option>Record Type</option>
+                    <option value="red-flag">Red Flag</option>
+                    <option value="intervention">Intervention</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="case-title">Title:</label>
+                <input type="text" name="case-title" class="form-control" id="case-title" placeholder="case title">
+            </div>
+            <div class="form-group">
+                <label for="lat">Latitude:</label>
+                <input type="text" name="lat" id="lat" class="form-control" placeholder="Latitude">
+            </div>
+
+            <div class="form-group">
+                <label for="long">Longitude:</label>
+                <input type="text" name="long" id="long" class="form-control" placeholder="Longitude">
+            </div>
+            <div class="form-group">
+                <label for="image">Upload one or more pictures:</label>
+                <input type="file" id="image" name="image" accept="image/*" multiple>
+            </div>
+            <div class="form-group">
+                <label for="video">Upload one or more Videos:</label>
+                <input type="file" id="video" name="video" accept="video/*" multiple>
+            </div>
+
+            <div class="form-group">
+                <label class="story-label" for="story">Tell us your story:</label>
+                <textarea id="story" name="story" rows="5" cols="33">It was a dark and stormy night...</textarea>
+            </div>
+
+            <div class="form-group text-center">
+                <button class="btn-case form-control" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
